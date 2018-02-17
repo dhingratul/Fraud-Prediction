@@ -10,7 +10,7 @@ Fraud hosts with substantial amount of fraudulent traffic using the impression l
 
 # Run
 1. Install the requirements for the projects by running
-2. `jupyter notebook Fraud-Prediction.ipynb` to open the Jupyter notebook
+2. `jupyter notebook Fraud_Prediction.ipynb` to open the Jupyter notebook
 
 # Discussions
 1. A One class SVM is used for predicting fraudulent traffic (+1)
