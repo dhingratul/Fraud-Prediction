@@ -13,6 +13,6 @@ Fraud hosts with substantial amount of fraudulent traffic using the impression l
 2. `jupyter notebook Fraud-Prediction.ipynb` to open the Jupyter notebook [Recommended]
 3. Alternatively, the code can be run from `python runModel.py ` through terminal. Please note, this code is for just to get the "fraud list" and it is not commented[Not Recommended]
 
-# Model
-One class SVM for predicting fraudulent traffic
-
+# Discussions
+1. A One class SVM is used for predicting fraudulent traffic
+2. Using bucketed time_stamps as features increases the test accuracy by >20%, which is a good indicator that fraudulent activities is clustered well in time. This fact can be extended to find the botnet networks.
