@@ -171,7 +171,7 @@ def evaluate(y_pred_X, gnd, thresh, le_y):
     -- le_y = Label encoder used for converting 'y' in range 0 to num_classes - 1 
     
     Output: {fraud_list} 
-    -- fraud_list =  List of fraud urls 
+    -- fraud_list =  List of urls recieving substantial fraudulent traffic 
     """
     df2 = pd.DataFrame({'y':y_pred_X, 'gnd':gnd})
     out = df2.groupby(['gnd']).sum()
